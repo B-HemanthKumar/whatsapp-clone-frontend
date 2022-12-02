@@ -24,7 +24,7 @@ const Login = () => {
     const Submit = (e) => {
         e.preventDefault();
 
-        Axios.post(`${URL}/users/login`, {email: inputEmail, password: inputPassword})
+        Axios.post(`${URL}/users/login`,{method: "POST"},{email: inputEmail, password: inputPassword})
         .then(res => {
             const token = new Cookies();
             token.set('token', res.data.token, {path: '/', maxAge:604800 })
