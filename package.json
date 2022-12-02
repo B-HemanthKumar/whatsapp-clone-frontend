@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://whatsapp-clone-app-1374d.web.app/",
+  "proxy":"https://dynamic-meringue-b63d99.netlify.app/",
   
   "dependencies": {
     "@fire-ui/fire-ui": "^0.2.3",
